@@ -244,3 +244,305 @@
   244  vim .gitignore
   245  cat .gitignore
   246  history 300 > exec_command.log
+new_history
+==========
+   36  ls
+   37  cd /home
+   38  $ ls test1
+   39  cd /home
+   40  ls test1
+   41  rm test1/copy.php
+   42  ls test1
+   43  rm -r test3
+   44  ls
+   45  cd /home
+   46  rm test1_copy/*.php
+   47  ls test1_copy
+   48  ls
+   49  ls test1_copy
+   50  ls test1
+   51  ls test2
+   52  cd /home
+   53  echo '# Hello World' > README.md
+   54  cat README.md
+   55  echo '# Server Lesson' > README.md
+   56  cat README.md
+   57  cd /home
+   58  echo 'Linux Practice' >> README.md
+   59  echo '-----------------' >> README.md
+   60  cat README.md
+   61  apt update -y && apt install -y vim
+   62  cd /home
+   63  vi README.md
+   64  cd /root
+   65  mkdir server_lesson && cd server_lesson
+   66  apt update -y && apt install -y git
+   67  git version
+   68  git init
+   69  ls
+   70  touch first.txt
+   71  ls
+   72  git branch
+   73  cd server_lesson/linux_practice1
+   74  cd server_lesson
+   75  cd server_lesson/
+   76  cd /server_lesson/
+   77  cd /server_lesson
+   78  mkdir -p linux_practice/public/index.php
+   79  ls
+   80  ls linux_practice
+   81  ls public
+   82  ls linux_practice/public/index.php
+   83  ls
+   84  cd /linux_practice/public
+   85  pwd
+   86  cd ./linux_practice/public
+   87  ls
+   88  cp /index.php /index_bk.php
+   89  cp index.php index_bk.php
+   90  ls
+   91  cp index.php index_bk.php
+   92  cd ./linux_practice/public
+   93  cp index.php index_bk.php
+   94  ls
+   95  cp index.php index_bk.php
+   96  docker cp index.php index_bk.php
+   97  cp -r index.php index_bk.php
+   98  ls
+   99* 
+  100  git status
+  101  git add first.txt
+  102  git add ../../first.txt
+  103  git status
+  104  git branch
+  105  git checkout working
+  106  git commit -m "first commit"
+  107  git config --global user.email "oqiri0707@gmail.com"
+  108  git config --global user.name "H-Hazeyama"
+  109  git commit -m "first commit"
+  110  git status
+  111  git branch
+  112  git checkout working
+  113  git checkout -b working
+  114  git branch
+  115  git status
+  116  git dif
+  117  git diff
+  118  ls
+  119  cd ../
+  120  cd ../
+  121  ls
+  122  rm linux_practice
+  123  rm -r linux_practice
+  124  ls
+  125  mkdir linux_practice1
+  126  ls
+  127  cd /linux_practice1
+  128  cd /linux_practice1/
+  129  cd /linux_practice1
+  130  ls
+  131  cd /linux_practice1
+  132  cd -r /linux_practice1
+  133  cd /server_lesson/linux_practice1
+  134  cd ./server_lesson/linux_practice1
+  135  cd ./linux_practice1
+  136  ls
+  137  mkdir public
+  138  ls
+  139  cd ./public
+  140  touch index.php
+  141  ls
+  142  cp index.php index_bk.php
+  143  ls
+  144  cd ../
+  145  ls
+  146  cp -r public tmp
+  147  ls
+  148  cd ./tmp
+  149  ls
+  150  cd ../
+  151  cd ./tmp
+  152  ls
+  153  rm index_bk.php
+  154  ls
+  155  cd ../
+  156  cd ../
+  157  touch README.md
+  158  ls
+  159  vi README.md
+  160  git status
+  161  git add linux_practice1
+  162  git status
+  163  git status
+  164  git commit -m "add: section5_practice1"
+  165  git status
+  166  git add README.md
+  167  git status
+  168  git commit -m "add: section5_practice1_README.md"
+  169  git status
+  170  git branch
+  171  git remote -v
+  172  git remote add origin https://github.com/H-Hazeyama/server-lesson.git
+  173  git remote -v
+  174  git push origin master
+  175  git branch
+  176  git push origin working
+  177  mkdir -r ./linux_practice2/documents
+  178  mkdir -p ./linux_practice2/documents
+  179  ls
+  180  ls linux_practice2
+  181  git status
+  182  cd ./server_practice2
+  183  cd ./linux_practice2
+  184  touch gizumo-{01..50}.md
+  185  ls
+  186  mkdir trash
+  187  ls
+  188  mv *.md documents/
+  189  ls
+  190  ls documents
+  191  rm *.md
+  192  rm ./documents/*.md
+  193  ls
+  194  ls documents
+  195  cd documents/
+  196  touch gizumo{01..50}.md
+  197  ls documents
+  198  ls ./documents
+  199  ls /documents
+  200  ls
+  201  cd ../
+  202  ls
+  203  mv /documents/gizumo{20..40}.md /trash
+  204  mv /documents/gizumo{20..40}.md trash
+  205  mv ./documents/gizumo{20..40}.md trash
+  206  ls
+  207  ls trash
+  208  ls documents
+  209  git status
+  210  cd ../
+  211  git status
+  212  git add linux_practice2
+  213  git status
+  214  git commit -m "add: section5_practice2-1~2"
+  215  git log
+  216  git branch
+  217  cd ./linux_practice2
+  218  ls
+  219  mkdir .gitignore
+  220  ls
+  221  git status
+  222  vi .gitignore
+  223  vim .gitignore
+  224  ls
+  225  touch .gitignore
+  226  ls
+  227  vim .gitignore
+  228  touch /.gitignore
+  229  ls
+  230  cd ./documents/
+  231  vim gizumo20.md
+  232  cd ..
+  233  ls
+  234  ls -a
+  235  cat .gitignore
+  236  rm .gitignore
+  237  rm -r .gitignore
+  238  ls -a
+  239  touch .gitignore
+  240  ls -a
+  241  cat .gitignore
+  242  vim .gitignore
+  243  cat .gitignore
+  244  vim .gitignore
+  245  cat .gitignore
+  246  history 300 > exec_command.log
+  247  ls
+  248  git status
+  249  git add exec_command.log
+  250  git status
+  251  git add .gitignore
+  252  git status
+  253  git commit -m "add: section5_practice2-3~5"
+  254  git log
+  255  git status
+  256  git push origin working
+  257  vim .gitignore
+  258  git status
+  259  git add .gitignore
+  260  git status
+  261  cd ./trash
+  262  git status
+  263  diff --staged trash
+  264  git diff --staged trash
+  265  git diff --staged gizumo*
+  266  git show :./*.md
+  267  git show :*.md
+  268  git show
+  269  git status
+  270  cd ../
+  271  git status
+  272  git commit -m "delete: all"
+  273  cd /trash
+  274  cd ./trash
+  275  ls
+  276  rm gizumo{20..29}.md
+  277  ls
+  278  touch {20..29}.md
+  279  git status
+  280  cd ../
+  281  ls
+  282  ls -a
+  283  vim .gitignore
+  284  git status
+  285  git status -a
+  286  git status
+  287  git add .gitignore
+  288  git status
+  289  cd ./trash
+  290  ls
+  291  rm {20..29}.md
+  292  ls
+  293  touch gizumo{20..29}.md
+  294  ls
+  295  git status
+  296  rm trash/
+  297  rm ./
+  298  rm gizumo{20..40}.md
+  299  git status
+  300  git add trash
+  301  git add .
+  302  git status
+  303  git commit -m "delete: trash-files"
+  304  git push origin working
+  305  cd ../
+  306  ls
+  307  cd /trash
+  308  cd ./trash
+  309  ls
+  310  touch gizumo{20..40}.md
+  311  ls
+  312  git status
+  313  cd ../
+  314  git status
+  315  cd ./trash
+  316  git status
+  317  git add ./trash
+  318  git status
+  319  git add .
+  320  git status
+  321  git commit -m "add: gizumo30~40.md files"
+  322  git status
+  323  git log
+  324  git show
+  325  new history >> exec_command.log
+  326  new history >>  exec_command.log
+  327  cd ../
+  328  new history >>  exec_command.log
+  329  ls
+  330  new history >>  exec_command.log
+  331  new_history >>  exec_command.log
+  332  echo new_history >>  exec_command.log
+  333  cat exec_command.log
+  334  echo ========== >> exec_command.log
+  335  history 300 >> exec_command.log
